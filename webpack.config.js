@@ -11,9 +11,9 @@ Encore
     .setPublicPath('/build')
 
     // will create public/build/app.js and public/build/app.css
+    .createSharedEntry('layout', './assets/js/layout.js')
     .addEntry('rep_log', './assets/js/rep_log.js')
     .addEntry('login', './assets/js/login.js')
-    .addEntry('layout', './assets/js/layout.js')
 
     .enableBuildNotifications()
 

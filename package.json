@@ -9,5 +9,11 @@
     "sass-loader": "^7.1.0",
     "sweetalert2": "^7.26.14",
     "webpack-notifier": "^1.6.0"
+  },
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production"
   }
 }
